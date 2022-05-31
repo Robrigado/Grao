@@ -1,0 +1,137 @@
+.background-image-container {
+    background-image: url(./assets/images/wave-hero-background2.svg);
+}
+
+.navbar-default.active {
+    background-image: url(./assets/images/wave-header2.svg);
+}
+
+.footer-container {
+    background-image: url(./assets/images/wave-footer2.svg);
+}
+
+h2{
+    color: black;
+}
+
+.white-text-container a, 
+.white-text-container h1, 
+.white-text-container h2, 
+.white-text-container h3, 
+.white-text-container h4, 
+.white-text-container h5, 
+.white-text-container p {
+    color: #e6c372;
+}
+
+
+.logorodape{
+    width: 12rem;
+    position: relative;
+    top: 43px;
+    left: 30px;
+}
+
+.labpai{
+    width: 100%;
+}
+
+.dois{
+--animate-duration: 1.3s;
+}
+
+.tres{
+    --animate-duration: 1.6s;
+}
+
+.txtclassico{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.section-container-spacer{
+    width: 100%;
+}
+
+.alfa{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.espaço{
+    height: 100px;
+}
+
+.espaço2{
+    height: 200px;
+}
+
+.alftitulo{
+    color: black;
+}
+
+.cx1,.cx2, .cx3{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
